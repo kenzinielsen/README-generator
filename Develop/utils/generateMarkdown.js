@@ -68,13 +68,3 @@ function generateMarkdown(data) {
 };
 
 module.exports = generateMarkdown;
-
-// ${data.description}
-// ${data.contents}
-// ${data.license}
-// ${data.contributing}
-// ${data.tests}
-// ${data.username}
-// ${data.email}
-
-//${renderLicenseSection(data.license)}

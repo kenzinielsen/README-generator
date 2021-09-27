@@ -40,14 +40,16 @@ const questions = () => {
             //npm install, inquirer, node index.js
         },
         {
-            type: 'input',
+            type: 'confirm',
             name: 'contributing',
-            message: 'contributing',
+            message: 'Would you like to add a contributing section?',
+            default: '',
         },
         {
-            type: 'input',
+            type: 'confirm',
             name: 'test',
-            message: 'tests',
+            message: 'Would you like to add test examples?',
+            default: '',
         },
         {
             type: 'input',
