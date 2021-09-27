@@ -1,8 +1,6 @@
 
   # README generator
 
-    ![license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
-
   ## Description
   Every project needs a good README with information about the app and all things related to it! This is an application used in the command line along with Node.js that will generate a README.md file according to the input you give.
   
