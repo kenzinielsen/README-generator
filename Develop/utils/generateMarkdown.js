@@ -24,47 +24,46 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+    ${renderLicenseBadge(data.license)}
 
-## Description
+  ## Description
 
-${data.description}
+    ${data.description}
 
-## Table of Contents 
+  ## Table of Contents 
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-* [Questions](#questions)
+  ## Installation
 
-## Installation
+  To install necessary dependencies, run the following command:
 
-To install necessary dependencies, run the following command:
+    ${data.installation}
 
-${data.installation}
+  ## Usage
 
-## Usage
+    ${data.usage}
 
-${data.usage}
+  ## Contributing
 
-## Contributing
+    ${data.contributing}
 
-${data.contributing}
+  ## Tests
 
-## Tests
+  To run tests, run the following command:
 
-To run tests, run the following command:
+    ${data.test}
 
-${data.test}
+  ## Questions
 
-## Questions
-
-If you have any questions about the repo, open an issue or contact me directly at 
-${data.email}. 
-You can find more of my work at [${data.github}](https://github.com/${data.github}/).
-
+  If you have any questions about the repo, open an issue or contact me directly at 
+    ${data.email}. 
+  You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+  
 `
 };
 
