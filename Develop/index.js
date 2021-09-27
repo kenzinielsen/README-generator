@@ -37,6 +37,7 @@ const questions = () => {
             type: 'input',
             name: 'installation',
             message: 'What are the steps to install this into your own project?'
+            //npm install, inquirer, node index.js
         },
         {
             type: 'input',
