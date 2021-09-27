@@ -6,9 +6,9 @@ Every project needs a good quality README with information about what the app is
 This application uses the command-line and runs with Node.js. It will generate a README.md file according to the information you input into the terminal based on the prompted questions.
 
 # Table of Contents 
- -[Installation](#installation)
- -[Usage](#usage)
- -[Questions](#questions)
+ * [Installation](#installation)
+ * [Usage](#usage)
+ * [Questions](#questions)
 
 # Installation
 
